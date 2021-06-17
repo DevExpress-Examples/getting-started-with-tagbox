@@ -19,7 +19,7 @@ $(function() {
             console.log(e.value);
         },
         dropDownOptions: {
-            maxHeight: 300
+            height: 300
         }
     });
     

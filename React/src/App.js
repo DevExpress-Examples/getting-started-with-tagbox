@@ -19,7 +19,7 @@ const dataSource = new DataSource({
 });
 
 const dropDownOptions = {
-  maxHeight: 300
+  height: 300
 };
 
 function App() { 

@@ -38,7 +38,7 @@ export default {
         group: 'Category'
       }),
       dropDownOptions: {
-        maxHeight: 300
+        height: 300
       }
     };
   },

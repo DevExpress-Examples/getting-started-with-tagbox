@@ -24,7 +24,7 @@ export class AppComponent {
         });
 
         this.dropDownOptions = {
-            maxHeight: 300
+            height: 300
         };
     }
 
