@@ -1,21 +1,47 @@
-import { useState } from 'react';
+import { useCallback } from 'react';
 
 import 'devextreme/dist/css/dx.common.css';
-import 'devextreme/dist/css/dx.material.blue.light.compact.css';
+import 'devextreme/dist/css/dx.light.css';
 import './App.css';
 
-import Button from 'devextreme-react/button';
+import TagBox from 'devextreme-react/tag-box';
+import DataSource from 'devextreme/data/data_source';
 
+import { products } from './data';
 
-function App() {
-  var [count, setCount] = useState(0);
-  const clickHandler = () => {
-    setCount(count + 1);
-  }
+const dataSource = new DataSource({
+  store: {
+    data: products,
+    type: 'array',
+    key: 'ID'
+  },
+  group: 'Category'
+});
+
+const dropDownOptions = {
+  maxHeight: 300
+};
+
+function App() { 
+  const onValueChanged = useCallback((e) => {
+    console.log(e.previousValue);
+    console.log(e.value);
+  }, []);
+
   return (
-    <div className="App">
-      <Button text={`Click count: ${count}`} onClick={clickHandler} />
-    </div>
+    <TagBox
+      id="tagBox"
+      dataSource={dataSource}
+      valueExpr="ID"
+      displayExpr="Name"
+      searchEnabled={true}
+      showSelectionControls={true}
+      grouped={true}
+      multiline={true}
+      maxDisplayedTags={6}
+      onValueChanged={onValueChanged}
+      dropDownOptions={dropDownOptions}
+    />
   );
 }
 
