@@ -1,8 +1,4 @@
-# Angular
-
-Take a look at the following files of this example to see the required code: 
-
-Your files go here
+# Getting Started with TagBox - Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
 

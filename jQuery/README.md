@@ -1,4 +1,4 @@
-# jQuery
+# Getting Started with TagBox - jQuery
 
 ## Installation
 
@@ -7,12 +7,6 @@ Download the example and use NPM to install required libraries.
 ```
 npm install
 ```
-
-## Code
-
-Take a look at the following files of this example to see the required code: 
-
-Your files go here
 
 ## Development server
 

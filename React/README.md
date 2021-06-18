@@ -1,8 +1,4 @@
-# React
-
-Take a look at the following files of this example to see the required code: 
-
-Your files go here
+# Getting Started with TagBox - React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -33,6 +29,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 You can learn more about React in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To get more help on DevExtreme submit an issue on [GitHub](https://github.com/DevExpress/devextreme/issues) or [Support Center](https://www.devexpress.com/Support/Center/Question/Create)
-
 
 

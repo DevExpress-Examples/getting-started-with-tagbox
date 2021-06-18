@@ -1,28 +1,58 @@
 <template>
-  <Home/>
+  <DxTagBox
+    id="tagBox"
+    :data-source="dataSource"
+    value-expr="ID"
+    display-expr="Name"
+    :search-enabled="true"
+    :show-selection-controls="true"
+    :grouped="true"
+    :multiline="true"
+    :max-displayed-tags="6"
+    @value-changed="onValueChanged"
+    :drop-down-options="dropDownOptions"
+  />
 </template>
 
 <script>
-
 import 'devextreme/dist/css/dx.common.css';
-import 'devextreme/dist/css/dx.material.blue.light.compact.css'
-import Home from './components/Home.vue'
+import 'devextreme/dist/css/dx.light.css';
+
+import { DxTagBox } from 'devextreme-vue';
+import DataSource from 'devextreme/data/data_source';
+import { data } from './data';
 
 export default {
   name: 'App',
   components: {
-    Home
+    DxTagBox
+  },
+  data() {
+    return {
+      dataSource: new DataSource({
+        store: {
+          data: data,
+          type: 'array',
+          key: 'ID'
+        },
+        group: 'Category'
+      }),
+      dropDownOptions: {
+        height: 300
+      }
+    };
+  },
+  methods: {
+    onValueChanged(e) {
+      console.log(e.previousValue);
+      console.log(e.value);
+    }
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  margin: 50px 50px;
-  width: 90vh;
+#tagBox {
+  width: 500px;
 }
 </style>

@@ -1,8 +1,4 @@
-# Vue 
-
-Take a look at the following files of this example to see the required code: 
-
-- Your files go here
+# Getting Started with TagBox - Vue 
 
 This project was bootstrapped with [Vue CLI](https://cli.vuejs.org/).
 
