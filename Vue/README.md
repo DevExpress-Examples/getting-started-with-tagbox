@@ -1,4 +1,4 @@
-# Vue 
+# Getting Started with TagBox - Vue 
 
 This project was bootstrapped with [Vue CLI](https://cli.vuejs.org/).
 
