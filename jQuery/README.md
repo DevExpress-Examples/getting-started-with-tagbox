@@ -1,4 +1,4 @@
-# jQuery
+# Getting Started with TagBox - jQuery
 
 ## Installation
 
