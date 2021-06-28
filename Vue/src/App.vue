@@ -20,7 +20,7 @@ import 'devextreme/dist/css/dx.light.css';
 
 import { DxTagBox } from 'devextreme-vue';
 import DataSource from 'devextreme/data/data_source';
-import { products } from './data';
+import { data } from './data';
 
 export default {
   name: 'App',
@@ -31,7 +31,7 @@ export default {
     return {
       dataSource: new DataSource({
         store: {
-          data: products,
+          data: data,
           type: 'array',
           key: 'ID'
         },

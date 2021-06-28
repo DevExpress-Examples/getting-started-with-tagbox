@@ -7,11 +7,11 @@ import './App.css';
 import TagBox from 'devextreme-react/tag-box';
 import DataSource from 'devextreme/data/data_source';
 
-import { products } from './data';
+import { data } from './data';
 
 const dataSource = new DataSource({
   store: {
-    data: products,
+    data: data,
     type: 'array',
     key: 'ID'
   },

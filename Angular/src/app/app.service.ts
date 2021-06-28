@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 
-export class Product {
+export class Item {
     ID: number;
     Name: string;
     Category: string;
 }
 
-const products: Product[] = [{
+const data: Item[] = [{
     "ID": 1,
     "Name": "HD Video Player",
     "Category": "Video Players"
@@ -73,7 +73,7 @@ const products: Product[] = [{
 })
 
 export class AppService {
-    getProducts(): Product[] {
-        return products;
+    getItems(): Item[] {
+        return data;
     }
 }

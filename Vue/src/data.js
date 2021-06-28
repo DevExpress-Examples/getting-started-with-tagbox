@@ -1,4 +1,4 @@
-export const products = [{
+export const data = [{
     "ID": 1,
     "Name": "HD Video Player",
     "Category": "Video Players"
