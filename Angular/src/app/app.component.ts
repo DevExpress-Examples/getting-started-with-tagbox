@@ -9,14 +9,14 @@ import { AppService, Product } from './app.service';
 })
 export class AppComponent {
     dataSource: DataSource;
-    data: Product[];
+    products: Product[];
     dropDownOptions: any;
 
     constructor(service: AppService) {
-        this.data = service.getProducts();
+        this.products = service.getProducts();
         this.dataSource = new DataSource({
             store: {
-                data: this.data, 
+                data: this.products, 
                 type: 'array',
                 key: "ID", 
             },
