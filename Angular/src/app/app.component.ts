@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import DataSource from 'devextreme/data/data_source';
-import { AppService, Product } from './app.service';
+import { AppService, Item } from './app.service';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +9,11 @@ import { AppService, Product } from './app.service';
 })
 export class AppComponent {
     dataSource: DataSource;
-    data: Product[];
+    data: Item[];
     dropDownOptions: any;
 
     constructor(service: AppService) {
-        this.data = service.getProducts();
+        this.data = service.getItems();
         this.dataSource = new DataSource({
             store: {
                 data: this.data, 
