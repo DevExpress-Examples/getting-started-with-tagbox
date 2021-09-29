@@ -1,4 +1,6 @@
-# Getting Started with TagBox - Vue 
+# Getting Started with DevExtreme Vue TagBox
+
+This repository stores Vue source code for the [Getting Started with TagBox](https://js.devexpress.com/Documentation/Guide/UI_Components/TagBox/Getting_Started_with_TagBox/) tutorial.
 
 This project was bootstrapped with [Vue CLI](https://cli.vuejs.org/).
 

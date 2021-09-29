@@ -1,4 +1,6 @@
-# Getting Started with TagBox - jQuery
+# Getting Started with DevExtreme jQuery TagBox
+
+This repository stores jQuery source code for the [Getting Started with TagBox](https://js.devexpress.com/Documentation/Guide/UI_Components/TagBox/Getting_Started_with_TagBox/) tutorial.
 
 ## Installation
 

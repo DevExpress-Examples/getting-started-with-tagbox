@@ -1,4 +1,6 @@
-# Getting Started with TagBox - Angular
+# Getting Started with DevExtreme Angular TagBox
+
+This repository stores Angular source code for the [Getting Started with TagBox](https://js.devexpress.com/Documentation/Guide/UI_Components/TagBox/Getting_Started_with_TagBox/) tutorial.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
 
