@@ -1,6 +1,5 @@
 import { useCallback } from 'react';
 
-import 'devextreme/dist/css/dx.common.css';
 import 'devextreme/dist/css/dx.light.css';
 import './App.css';
 
@@ -39,6 +38,8 @@ function App() {
       grouped={true}
       multiline={true}
       maxDisplayedTags={6}
+      label="Products"
+      labelMode="floating"
       onValueChanged={onValueChanged}
       dropDownOptions={dropDownOptions}
     />

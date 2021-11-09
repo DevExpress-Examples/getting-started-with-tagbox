@@ -9,13 +9,14 @@
     :grouped="true"
     :multiline="true"
     :max-displayed-tags="6"
+    label="Products"
+    label-mode="floating"
     @value-changed="onValueChanged"
     :drop-down-options="dropDownOptions"
   />
 </template>
 
 <script>
-import 'devextreme/dist/css/dx.common.css';
 import 'devextreme/dist/css/dx.light.css';
 
 import { DxTagBox } from 'devextreme-vue';
