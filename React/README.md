@@ -1,6 +1,6 @@
-# Getting Started with DevExtreme React TagBox
+# DevExtreme React TagBox - Getting Started 
 
-This repository stores React source code for the [Getting Started with TagBox](https://js.devexpress.com/Documentation/Guide/UI_Components/TagBox/Getting_Started_with_TagBox/) tutorial.
+This repository stores the code examples of the React TagBox component for the [Getting Started with TagBox](https://js.devexpress.com/Documentation/Guide/UI_Components/TagBox/Getting_Started_with_TagBox/) tutorial. The TagBox is an editor that allows users to select multiple items from a drop-down list. This tutorial explains how to add a TagBox to a page, populate the drop-down list, allow users to search through it, and log the selected item data to the console.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -30,6 +30,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 You can learn more about React in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To get more help on DevExtreme submit an issue on [GitHub](https://github.com/DevExpress/devextreme/issues) or [Support Center](https://www.devexpress.com/Support/Center/Question/Create)
+To get more help on DevExtreme, submit an issue on [GitHub](https://github.com/DevExpress/devextreme/issues) or [Support Center](https://www.devexpress.com/Support/Center/Question/Create).
 
 
